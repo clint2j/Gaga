@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>gaga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="add.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h3>Sign Up</h3>
+    <form action="/action_page.php">
+    <div id="initial">
+      <label for="name"><h4>Name:</h4></label>
+      <input type="text" id="name" name="name">
+      <label for="year"><h4>Year:</h4></label>
+        <select name="year" id="year">
+          <option value="freshman">Freshman</option>
+          <option value="sophmore">Sophmore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option>
+          <option value="old">Old</option>
+          <option value="bitch">Bitch-ass Highschooler</option>
+        </select>
+      <label for="dorm"><h4>Dorm:</h4></label>
+        <input type="text" id="dorm" name="dorm">
+      <label for="tele"><h4>Number for Group Me</h4></label>
+        <input type="tel" id="tele" name="tele" oninput="tele()">
+
+      <button id="cont" onclick="bruh()" type="button">Continue</button>
+    </div>
+    <div id="next">
+      <button id="back" onclick="ubruh()"><-</button>
+      <label for="user"><h4>User Name:</h4></label>
+      <input type="text" id="user" name="user">
+      <label for="pass"><h4>Password:</h4></label>
+      <input type="password" id="pass" name="pass">
+      <label for="pass2"><h4>Confirm Password:</h4></label>
+      <input type="password" id="pass2" name="pass2">
+      <button id="submit" onclick="submit()">Submit</button>
+      <!--<input type="submit" id="sub">-->
+      </form>
+      <p id="bruh">Note: These values aren't encrypted because I don't get paid for this shit so don't use a password you also use for <strong>important shit</strong></p>
+    </div>
+    <script src="add.js"></script>
+  </body>
+</html>

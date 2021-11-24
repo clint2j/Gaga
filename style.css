@@ -1,0 +1,67 @@
+button {
+  background:    black;
+border-radius: 11px;
+padding:       30px 65px;
+color:         #ffffff;
+display:       block;
+font:          normal 26px/1 'Roboto', sans-serif;
+font-weight: 800;
+text-align:    center;
+margin-left: auto;
+margin-right: auto;
+}
+h3 {
+  text-align: center;
+  font:          normal 40px/1 'Roboto', sans-serif;
+font-weight: 800;
+}
+button:hover {
+  background-color: lightblue;
+  color: black;
+}
+#forgot {
+  background: white;
+  padding: 0;
+  border: 0;
+  font: normal 16px/1 'Roboto', sans-serif;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+  text-decoration: underline;
+
+}
+#forgot:hover {
+
+}
+#sign, #submit {
+  margin-top: 10%;
+}
+#sign {
+    margin-bottom: 15px;
+}
+#login {
+  display: none;
+}
+h4 {
+  text-align: center;
+  font:          normal 24px/1 'Roboto', sans-serif;
+font-weight: 800;
+}
+input {
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+  font:          normal 22px/1 'Roboto', sans-serif;
+font-weight: 400;
+border-radius: 11px;
+padding:       10px 55px;
+}
+#back {
+  position: absolute;
+  left: 13%;
+  top: 5%;
+  border: 0;
+  background-color: white;
+  color: black;
+  padding: 0;
+}
